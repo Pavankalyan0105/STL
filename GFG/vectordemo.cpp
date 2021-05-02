@@ -68,4 +68,22 @@ int main()
         cout<<endl;
 
 
+    for(int i:v)
+        cout<<i<<" ";
+        cout<<endl;
+
+    next_permutation(v.begin(), v.end());
+
+    cout<<"Next permutation "<<endl;
+    for(int i:v)
+        cout<<i<<" ";
+        cout<<endl;
+
+
+    cout<<"prev permutation "<<endl;
+    prev_permutation(v.begin(), v.end());
+    for(int i:v)
+        cout<<i<<" ";
+        cout<<endl;
+
 }

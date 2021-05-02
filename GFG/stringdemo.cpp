@@ -1,5 +1,5 @@
-#include <string>
-#include <iostream>
+#include <bits/stdc++.h>
+#include <bitset>
 using namespace std;
 
 int main()
@@ -11,14 +11,17 @@ int main()
     //prefer using it
 
 
-    getline(cin, str);
+    // getline(cin, str);
 
-    str.copy(str2 , 3 , 0); 
+    // str.copy(str2 , 3 , 0); 
     
-    str+="f";
-    str+="dr";
-    str.pop_back();
+    // str+="f";
+    // str+="dr";
+    // str.pop_back();
 
-    cout << str;
-    cout<<"  "<<str2<<"  ";
-}
+    // cout << str;
+    // cout<<"  "<<str2<<"  ";
+
+
+
+}   
